@@ -1,82 +1,75 @@
+// for (var i = 0; i <= 10; i++) {
+//     alert(i);
+//   }
+//   for (var i = 0; i <= 10; i++) {
+//     alert(i);
+//   }
+  
+//   document.write(4 + "x" + 1 + "=" + 4 * 1 + "<br>");
+//   document.write(4 + "x" + 2 + "=" + 4 * 2 + "<br>");
+//   document.write(4 + "x" + 3 + "=" + 4 * 3 + "<br>");
+//   document.write(4 + "x" + 4 + "=" + 4 * 4 + "<br>");
+//   document.write(4 + "x" + 5 + "=" + 4 * 5 + "<br>");
+//   document.write(4 + "x" + 6 + "=" + 4 * 6 + "<br>");
+//   document.write(4 + "x" + 7 + "=" + 4 * 7 + "<br>");
+//   document.write(4 + "x" + 8 + "=" + 4 * 8 + "<br>");
+//   document.write(4 + "x" + 9 + "=" + 4 * 9 + "<br>");
+//   document.write(4 + "x" + 10 + "=" + 4 * 10 + "<br>");
+  
+//   var userInput = +prompt("Enter a number to generate a multiplication table");
+//   var userInputLength = +prompt("Enter length");
+//   fruits = ["apple", "banana", "mango", "orange", "strawberry"]
 
-// Chapter : Alert
-// Q 1
-alert("Dawood")
-// Q 2
-alert("Khan")
-// Q 3
-alert("arslannoor.1408@gmail.com")
-// Q 04
-alert("03152107379")
-// Q 5
-alert("Passward")
-// Q 6
-alert("You are learning javascript")
-// Chapter Variables and String
-// Q 1
-// var FirstName = "Dawood"
-// var lastName = "khan"
-// var fullName ='firstName + lastName';
-// alert("fullName");
-var message = "This is your alert message.";
-alert(message)
-// Chapter : 02
-// Q:01
-var firstName = "Dawood"
-// Q :02
-var myVariable; // Declaration without definition
-myVariable = "Hello, World!"; // Assignment with a string
-alert(myVariable)
-// Q:03
-var teamName = "Pakistan"
-alert(teamName)
-// Q:04
-var bestMan = "Charlie"
-bestMan ="John"
-alert (bestMan)
-// chap:03
-// Q:01 
-var CaseQty = 144
-// Q:02
-var CaseQty = 144
-alert (CaseQty)
-// Q:03
-var sum ; 3 + 6
-sum = 9
-alert(sum)
-// Q:04
-var merchTotal =100;
-var shippingCharge =10;
-var orderTotal =merchTotal +shippingCharge
-alert (orderTotal)
-// Q:05
-var firstValue =100;
-var  secondValue =50;
-var totalValue = firstValue + secondValue
-alert(totalValue)
-// Chapter : 04
-// Q :01
-var productCost = 3.45;
-// Q:02
-var nameOfBand;
-// Q:03
-var firstName = Dawood
-var lastName = Khan
-var fullName =  firstName + lastName
-alert(fullName)
-// chap:05
-// Q:01
-var remainder = 10 % 3; 
-// Q :02
-var num = 20 % 6;
-num= 3.333;
-alert(num)
-// Q: 04
-var variable1 = 10;
-var variable2 = 5;
-var result = variable1 - variable2;
-// Q:06
-var num1 = 5;
-var num2 = 10;
-var result = num1 * num2;
-alert(result);
+// alert("Fruits in the array:")
+// // for fruit in fruits:
+//     alert(fruit)
+//     print("a. Counting:", end=" ")
+// for i in range(1, 16):
+//     print(i, end=", ")
+
+// # b. Reverse counting
+// print("\nb. Reverse counting:", end=" ")
+// for i in range(10, 0, -1):
+//     print(i, end=", ")
+
+// # c. Even
+// print("\nc. Even:", end=" ")
+// for i in range(0, 21, 2):
+//     print(i, end=", ")
+
+// # d. Odd
+// print("\nd. Odd:", end=" ")
+// for i in range(1, 20, 2):
+//     print(i, end=", ")
+
+// # e. Series
+// print("\ne. Series:", end=" ")
+// for i in range(2, 21, 2):
+//     print(f"{i}k", end=", ")
+// When you run this Python program, it will generate and print the series in the format you specified.
+
+
+// A = [24, 53, 78, 91, 12]
+
+
+// largest = A[0]  
+
+
+//     if num > largest:
+//     largest = num
+
+// alert("The largest number in the array is:", largest)
+
+// for num in range(1, 101):
+    // if num % 5 == 0:
+        // / document.write(num)
+       
+        // num = int(input("Enter the number for the multiplication table: "))
+        
+        // length = int(input("Enter the length of the multiplication table: "))
+        
+      
+        // print(f"Multiplication table for {num} up to {length} terms:")
+        // for i in range(1, length + 1):
+        //     result = num * i
+        //     document.write(f"{num} x {i} = {result}")
